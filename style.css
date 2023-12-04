@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+   
+    background-color: rgb(89, 137, 228);
+
+}
+nav{
+    display: flex;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 90px;
+    padding: 0 25px;
+}    
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+   padding: 0 23px;
+    list-style: none;
+}
+nav ul li a:hover{
+    color: red;
+    text-decoration: none;
+    font-weight: bolder ;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 25px;
+    width: 490px;
+    border-radius: 4px;
+    margin: 0 10px 0 40px;
+}
+.container{
+    min-height: calc(100vh - 60px - 7vh);
+}
+.btn {
+    padding: 4px 8px;
+    color: rgb(4, 4, 163);
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 2px;
+    border-color: rgb(72, 59, 255) ;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.btn span:hover{
+    background-color: rgb(134, 134, 241);
+    border-color: rgb(253, 7, 7);
+    color:rgb(207, 3, 3);
+}
+.log{
+    padding: 3px 6px ;
+    margin: 0 0 0 200px;
+    background-color: rgb(1, 1, 75);
+    color: white;
+    font-weight: bold;
+    border-color:  rgb(65, 98, 243);
+    cursor: pointer;
+    border-radius: 2px;
+}
+.log  span:hover{
+    color: rgb(11, 59, 218);
+    background-color: rgb(31, 6, 6);
+    font-weight: bolder;
+    border: blue;
+
+}
+.sign{
+    padding: 3px 6px ;
+    margin: 0 0 0 5pxpx;
+    background-color: rgb(1, 1, 75);
+    color: white;
+    font-weight: bold;
+    border-color:  rgb(65, 98, 243);
+    cursor: pointer;
+    border-radius: 2px;
+}
+.sign span:hover{
+    color: rgb(11, 59, 218);
+    background-color: rgb(31, 6, 6);
+    font-weight: bolder;
+    border: blue;
+
+}
+.slider img{
+    display: block;
+    margin: auto;
+    width: 88vw;
+    height: 400px;
+    padding: 6px;
+    overflow: hidden;
+}
+h1 {
+    color: rgb(0, 0, 119);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card1{
+    background-color: rgb(230, 255, 255);
+    max-width: 250vh ;
+    margin: auto;
+}
+.class-items{
+    display: inline flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 13px;
+
+}
+.card2{
+    background-color: rgb(225, 229, 245);
+    max-width: 250vh ;
+    margin: auto;
+}
+.card3{
+    background-color: rgb(169, 210, 250);
+    max-width: 250vh ;
+    margin: auto;
+}
+.my-2{
+    margin: 26px 0;
+}
+footer{
+    height: 7vh;
+    background-color: rgb(0, 60, 255);
+    color: white;
+}

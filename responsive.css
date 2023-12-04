@@ -1,0 +1,15 @@
+@media screen and ( max-width: 1000px){
+    body
+ {
+    background-color: brown;
+}
+nav{
+    flex-direction: column;
+}
+.logo{
+    justify-content: center;
+    margin: 12px 0;
+}
+.search{
+    justify-content: center;
+}
